@@ -19,7 +19,7 @@ pkgdesc="Extended DBus for Qt"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('LGPL-2.1-or-later')
-depends=('qt5-declarative')
+depends=('qt5-base')
 makedepends=('git')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
